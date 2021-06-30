@@ -31,3 +31,6 @@
   ```sh
   /opt/promobot/TestDevices/TestDevices
   ```
+
+## Обновление
+* Следовать [инструкции](https://github.com/Promobot-education/ppa/wiki) по обновлению из ppa репозитория
