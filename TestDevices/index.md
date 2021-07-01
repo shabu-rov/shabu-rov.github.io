@@ -6,3 +6,5 @@
 ℹ️ [Установка и запуск на Ubuntu 16.04](/TestDevices/setup_ubuntu)
 
 ℹ️ [Установка и запуск на Windows](/TestDevices/setup_windows)
+
+ℹ️ [Руководство пользователя](/TestDevices/user_guide)

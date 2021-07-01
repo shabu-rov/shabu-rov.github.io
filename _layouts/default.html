@@ -22,28 +22,27 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        <h2>Продукты</h2>
+        <h2>Платформы</h2>
         <p class="view"><a href="{{ site.robox_url }}">Robox<small>Комплект из сервопривода и датчика расстояния</small></a></li></p>
-        <p class="view"><a href="{{ site.rooky_url }}">Rooky<small>Рука манипулятор</small></a></p>
+        <p class="view"><a href="{{ site.rooky_url }}">Rooky<small>Рука-манипулятор</small></a></p>
+        <p class="view"><a href="{{ site.V4_url }}">V.4<small>Лабораторный стенд Promobot</small></a></p>
+        <h2>Программное обеспечение</h2>
         <p class="view"><a href="{{ site.rrstudio_url }}">RRStudio<small>Простое написание алгоритмов</small></a></p>
         <p class="view"><a href="{{ site.test_devices_url }}">TestDevices<small>Тестирование оборудования и проверка связи</small></a></p>
-        <p class="view"><a href="{{ site.V4_url }}">V.4<small>Лабораторный стенд Promobot</small></a></p>
         <p class="view"><a href="{{ site.WSL2_url }}">Настройка WSL2<small>Windows Subsystem for Linux</small></a></p></p>
-
-        <p class="view"><a href="{{ site.github_home_url }}">Перейти в профиль GitHub</a></p>
-
       </header>
       <section>
 
       {{ content }}
 
       </section>
-<!--       <footer>
-        {% if site.github.is_project_page %}
+      <footer>
+        <p class="view"><a href="{{ site.github_home_url }}">Перейти в профиль GitHub</a></p>
+        <!-- {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">OOOorderedlist</a></small></p>
-      </footer> -->
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">OOOorderedlist</a></small></p> -->
+      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}

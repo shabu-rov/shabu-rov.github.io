@@ -1,5 +1,7 @@
 # Подготовка системы Windows 10 для работы с ROS
-❗ Требуется **Windows 10**
+❗ Требуется **Windows 10 начиная с версии 1903**
+
+❗ Следует убедиться что в биосе включена виртуализация (Intel Virtualization Technology или AMD-V или Hyper-V или VT-X или Vanderpool или SVM в настройках CPU, например, в Asus - CPU Configuration).
 
 Для полноценной и стабильной работы ROS требуется Ubuntu Linux 16.04.
 В связи с этим, необходимо подготовить Windows к работе с ROS.
