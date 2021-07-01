@@ -4,12 +4,22 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-    width:1150px;
-    margin:0 auto;
-  }
+  width:58%;
+  margin:0 auto;
+}
 
 section {
-    width:800px;
-    float:right;
-    padding-bottom:50px;
-  }
+  width:65%;
+  float:right;
+  padding-bottom:50px;
+}
+
+h1 {
+  font-size:26px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
