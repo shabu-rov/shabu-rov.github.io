@@ -1,4 +1,4 @@
-# Подготовка и запуск Robox на Windows
+# Прямое управление Robox. Подготовка и запуск на Windows
 ## Подготовка к работе
 * Установить [git](https://git-scm.com/download/win)
 * Установить [Python 3.5.4](https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe) (При установке поставить галочку **"Add Python 3.5 to PATH"**)

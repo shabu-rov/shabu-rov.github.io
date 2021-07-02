@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header id="top">
         <h1 align="center"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
@@ -30,12 +30,14 @@
         <p class="view"><a href="{{ site.rrstudio_url }}">RRStudio<small>Простое написание алгоритмов</small></a></p>
         <p class="view"><a href="{{ site.test_devices_url }}">TestDevices<small>Тестирование оборудования и проверка связи</small></a></p>
         <p class="view"><a href="{{ site.WSL2_url }}">Настройка WSL2<small>Windows Subsystem for Linux</small></a></p></p>
+        <hr size="5"/>
+        <p class="view"><a href="{{ site.github_home_url }}">Перейти в профиль на GitHub</a></p>
       </header>
       <section>
         {{ content }}
       </section>
       <footer>
-        <p class="view"><a href="{{ site.github_home_url }}">Перейти в профиль GitHub</a></p>
+        <h4 align="right"><a href="#top">Наверх</a></h4>
         <!-- {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
