@@ -1,4 +1,4 @@
-# Управление Rooky через RRStudio на Windows
+# Управление Robox через RRStudio на Windows
 ## Подготовка
 * Установить [драйвера](/Robox/res/drivers/CDM21228_Setup.exe) интерфейсной платы, если не установлены
 * **Подготовка для работы с RRStudio закончена.**
