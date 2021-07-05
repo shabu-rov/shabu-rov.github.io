@@ -11,7 +11,7 @@
 Основные элементы устройства:
 - Интерфейсный блок
 - [Сервопривод](/Rooky/servo)
-- [Датчик касания](/Rooky/)
+- [Датчик касания](/Rooky/touch)
 
 ℹ️ [Скачать руководство пользователя Rooky](/Rooky/Promobot_Rooky_manual_screen_spreads.pdf)
 
