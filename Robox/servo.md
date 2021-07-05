@@ -92,35 +92,35 @@
             </tr>
             <tr role="row">
                 <td colspan="1" style="text-align: center;">12</td>
-                <td colspan="1" style="text-align: center;">Регистр PID Speed I</td>
+                <td colspan="1" style="text-align: center;">PID Speed I</td>
                 <td colspan="1">Настройка коэффициента I PID регулятора скорости</td>
                 <td colspan="1" style="text-align: center;"><span>float</span></td>
                 <td colspan="1" style="text-align: center;"><span>R/W</span></td>
             </tr>
             <tr role="row">
                 <td colspan="1" style="text-align: center;">14</td>
-                <td colspan="1" style="text-align: center;">Регистр PID Speed D</td>
+                <td colspan="1" style="text-align: center;">PID Speed D</td>
                 <td colspan="1">Настройка коэффициента D PID регулятора скорости</td>
                 <td colspan="1" style="text-align: center;"><span>float</span></td>
                 <td colspan="1" style="text-align: center;"><span>R/W</span></td>
             </tr>
             <tr role="row">
                 <td colspan="1" style="text-align: center;">16</td>
-                <td colspan="1" style="text-align: center;">Регистр PID Pos P</td>
+                <td colspan="1" style="text-align: center;">PID Pos P</td>
                 <td colspan="1">Настройка коэффициента P PID регулятора позиции</td>
                 <td colspan="1" style="text-align: center;"><span>float</span></td>
                 <td colspan="1" style="text-align: center;"><span>R/W</span></td>
             </tr>
             <tr role="row">
                 <td colspan="1" style="text-align: center;">18</td>
-                <td colspan="1" style="text-align: center;">Регистр PID Pos I</td>
+                <td colspan="1" style="text-align: center;">PID Pos I</td>
                 <td colspan="1">Настройка коэффициента I PID регулятора позиции</td>
                 <td colspan="1" style="text-align: center;"><span>float</span></td>
                 <td colspan="1" style="text-align: center;"><span>R/W</span></td>
             </tr>
             <tr role="row">
                 <td colspan="1" style="text-align: center;">20</td>
-                <td colspan="1" style="text-align: center;">Регистр PID Pos D</td>
+                <td colspan="1" style="text-align: center;">PID Pos D</td>
                 <td colspan="1">Настройка коэффициента D PID регулятора позиции</td>
                 <td colspan="1" style="text-align: center;"><span>float</span></td>
                 <td colspan="1" style="text-align: center;"><span>R/W</span></td>
