@@ -29,4 +29,4 @@
 
 ![ranger_struct](/Robox/res/ranger_struct.png)
 
-ℹ️ [Примеры работы с датчиком расстояния (Python/C)](/Robox/ranger_code)
+ℹ️ [Описание библиотек и примеров работы](/Robox/examples)

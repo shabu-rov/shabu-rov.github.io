@@ -1,14 +1,13 @@
-Ranger.py
----------
+# Описание библиотеки Ranger.py
+***
 
-### class Sensor(addr, master)
+## class Sensor(addr, master)
     Класс для работы с датчиком расстояния
     Args:
         * master (ModbusRTU): объект посдеовательного порта`.
         * addr (int): Адрес устройства. 1-250
-        
 
-### trig_sensor()
+## trig_sensor()
     Старт измерения расстояния
     Args:
         None
@@ -18,8 +17,7 @@ Ranger.py
     Raises:
         None
 
-
-### read_sensor():
+## read_sensor():
     Чтение данных (измеренная дистанция) с датчика расстояния
     Args:
         None
@@ -30,7 +28,7 @@ Ranger.py
     Raises:
         None
 
-### set_min_dist(dist)
+## set_min_dist(dist)
     Выставление порога измеренного расстояния, ниже которого загорается светодиод
     Args:
         * dist (int) - дистанция в мм.
