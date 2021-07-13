@@ -20,7 +20,7 @@
   * нормальный (движение в заданную позицию)
   * угловая скорость
   * ШИМ
-* [distance_to_servo_pos](/Robox/examples/python/distance_to_servo_pos) - Передвижение сервоприводом в зависимости от значений с датчика расстояния.
+* [distance_to_servo_pos](/Robox/examples/python/distance_to_servo_pos) - Передвижение сервопривода в зависимости от значений с датчика расстояния.
 * [servo_plot](/Robox/examples/python/servo_plot) - Построение графика желаемой позиции и реальной позиции вала во времени.
 
 ## Примеры на языке C
@@ -28,7 +28,7 @@
 * [ranger_read](/Robox/examples/c/ranger_read) - Цикличный опрос датчика расстояния.
 
 #### Сервопривод
-* [servo_move_to](/Robox/examples/c/servo_move_to) - Цикличное движение сервоприводом в указанное положение.
+* [servo_move_to](/Robox/examples/c/servo_move_to) - Цикличное движение сервопривода в указанное положение.
 * [servo_read](/Robox/examples/c/servo_read) - Цикличное считывание данных с сервопривода.
 * [servo_control_modes](/Robox/examples/c/servo_control_modes) - Переключение режимов сервопривода:
   * нормальный (движение в заданную позицию)

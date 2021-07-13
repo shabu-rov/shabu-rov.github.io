@@ -47,7 +47,7 @@ if __name__ == '__main__':
         # - "Errors"
         vals = servo.get_data()
 
-        # Если есть данные, то делаим их вывод на экран
+        # Если есть данные, то делаем их вывод на экран
         if vals:
             # Вывод полученных данных
             print('Data from servo: {0}'.format(servo_id))
