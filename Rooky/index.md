@@ -13,6 +13,15 @@
 - [Сервопривод](/Rooky/servo)
 - [Датчик касания](/Rooky/touch)
 
+<div style="width: 100%; height: 50px; margin:0px 0px 20px; float:left;">
+    <a href="https://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/"> 
+        <img src="/Rooky/res/ubuntu.png" height="40px" align="left" alt="ubuntu">
+    </a>
+    <div style="width: 50%; margin:1% 0px; height:20px;">
+        <a href="https://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/" style="margin-left:2px; align:left;">Скачать Ubuntu 16.04 LTS</a>
+    </div>
+</div>
+
 ℹ️ [Скачать руководство пользователя Rooky](/Rooky/Promobot_Rooky_manual_screen_spreads.pdf)
 
 ℹ️ [Общие сведения по работе с Rooky](/Rooky/common_info)
