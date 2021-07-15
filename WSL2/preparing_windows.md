@@ -97,15 +97,15 @@ wsl
 
 3. [Настроить COM порт](/WSL2/com_setup)
 
-3. Скачать архив [сервер (TCP <-> COM)](https://github.com/Promobot-education/WSL2/archive/refs/heads/main.zip)
+4. Скачать архив [сервер (TCP <-> COM)](https://github.com/Promobot-education/WSL2/archive/refs/heads/main.zip)
 
-4. Создать папку, если она отсутствует ``C:\Program Files (x86)\Promobot``
+5. Создать папку, если она отсутствует ``C:\Program Files (x86)\Promobot``
 
-5. Распаковать скачанный архив в папку из **п.3**
+6. Распаковать скачанный архив в папку из **п.5**
 
-6. Установить, если не установлен, [Python 3.5.4](https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe) (При установке поставить галочку **"Add Python 3.5 to PATH"**)
+7. Установить, если не установлен, [Python 3.5.4](https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe) (При установке поставить галочку **"Add Python 3.5 to PATH"**)
 
-7. Запустить Ubuntu Linux 16.04:
+8. Запустить Ubuntu Linux 16.04:
    * нажать **Win + X**
    * выбрать **PowerShell(админ)**
    * написать команду:
@@ -113,9 +113,9 @@ wsl
    wsl
    ```
 
-8. Написать в Linux следующие команды:
+9. Написать в Linux следующие команды:
 ```sh
 sudo apt update
 sudo apt install socat
 ```
-9. **Настройка закончена. Все окна можно закрыть**
+10. **Настройка закончена. Все окна можно закрыть**
