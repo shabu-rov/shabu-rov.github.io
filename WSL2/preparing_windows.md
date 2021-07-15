@@ -12,12 +12,16 @@
 1. Нажать **Win + X**
 2. Выбрать **PowerShell(админ)**
 3. Ввести команды:
-```PowerShell
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-```
-```PowerShell
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
+   
+   ```PowerShell
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   ```
+   > Если при включении Microsoft-Windows-Subsystem-Linux возвращается ошибка,
+   > необходимо скачать и установить подходящее обновление для вашей системы по [ссылке](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4566116).
+
+   ```PowerShell
+   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+   ```
 
 4. **Перезагрузить ПК**
 
@@ -30,12 +34,13 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
    ```PowerShell 
    wsl --set-default-version 2
    ```
-7. Скачать и установить (запустить если уже есть в системе) дистрибутив (200 MB) Ubuntu 16.04. [Ссылка](https://aka.ms/wsl-ubuntu-1604) 
-
-8. Ввести желаемое имя пользователя и пароль для учетной записи WSL
+7. Скачать и установить (запустить если уже есть в системе) дистрибутив (200 MB) Ubuntu 16.04. [Ссылка](https://aka.ms/wsl-ubuntu-1604)
+   > Если расширение .appx не известно системе,
+   > необходимо распаковать скачанный файл с помощью 7zip и запустить в распакованной папке файл "ubuntu1604.exe"
+  
+8. Ввести желаемое имя пользователя (без заглавных букв) и пароль для учетной записи WSL
 
 9. Подсистема **Ubuntu Linux** готова к работе
-
    ![start](/WSL2/res/start.png)
 
 ## Подготовка для запуска графических приложений (X-сервер)
@@ -51,7 +56,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
    ![step_3](/WSL2/res/step_3.png)
 
-3. Сохранить конфигурацию на рабочий стол.
+3. **Сохранить** конфигурацию на рабочий стол.
 
    ![step_4](/WSL2/res/step_4.png)
 
