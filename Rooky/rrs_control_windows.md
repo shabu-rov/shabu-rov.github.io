@@ -29,7 +29,7 @@
      * Добавить путь до файлов серверного ПО
        ```sh
        echo "source /opt/promobot/EduControl/install/setup.bash" >> ~/.bashrc
-       source ~/.bas
+       source ~/.bashrc
        ```
 
 ## Запуск (Поддерживается симуляция)
