@@ -11,7 +11,7 @@ sudo apt-get install ros-kinetic-desktop-full
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
-* Установить пакет с серверным ПО **promobot-edu_control**
+* Установить пакет с серверным ПО **promobot-edu-control**
   * Добавить в систему ppa репозиторий (если не добавлен)
   ```sh
   curl -s --compressed "https://Promobot-education.github.io/ppa/KEY.gpg" | sudo apt-key add -
