@@ -16,6 +16,9 @@
   curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
   sudo apt-get update
   sudo apt-get install ros-kinetic-desktop-full
+  sudo apt install python-rosdep
+  sudo rosdep init
+  rosdep update
   echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
   source ~/.bashrc
   ```
@@ -35,18 +38,24 @@
     echo "source /opt/promobot/EduControl/install/setup.bash" >> ~/.bashrc
     source ~/.bashrc
     ```
+  * Проверить зависимости
+    ```sh
+    cd /opt/promobot/EduControl
+    rosdep install --from-paths install --ignore-src -r -y
+    ```
 * **Подготовка для работы с узлом ROS закончена.**
 
-## Запуск (Поддерживается симуляция)
+## Запуск для работы с реальным устройством
 * Открыть терминал: **Ctrl + Alt + T**
-* В зависимости от стороны руки запустить ROS командой:
-  ```sh
-  roslaunch promobot_control promobot_hardware.launch side:=left
-  ```
-  или 
-  ```sh
-  roslaunch promobot_control promobot_hardware.launch side:=right
-  ```
+* В зависимости от типа Rooky запустить ROS командой:
+  * **Для левой Rooky:**
+    ```sh
+    roslaunch promobot_control promobot_hardware.launch side:=left
+    ```
+  * **Для правой Rooky:**
+    ```sh
+    roslaunch promobot_control promobot_hardware.launch side:=right
+    ```
 * Открыть еще один терминал: **Ctrl + Alt + T**
 * Подать команду для перехода в директорию с примером:
   ```sh
@@ -57,14 +66,14 @@
   python joints.py
   ```
 
-## Запуск симуляции
-Запуск симуляции происходит аналогично запуску с реальным устройством:
-
-В зависимости от стороны руки симуляция запускается командой:
-```sh
-roslaunch promobot_control start_simulation.launch side:=left
-```
-или 
-```sh
-roslaunch promobot_control start_simulation.launch side:=right
-```
+## Запуск для работы в режиме симуляции, без реального устройства
+Запуск симуляции происходит аналогично запуску с реальным устройством.  
+Отличаются только команды на запуск серверного ПО (ROS):  
+* **Для левой Rooky:**
+  ```sh
+  roslaunch promobot_control start_simulation.launch side:=left
+  ```
+* **Для правой Rooky:**
+  ```sh
+  roslaunch promobot_control start_simulation.launch side:=right
+  ```

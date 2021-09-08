@@ -17,7 +17,7 @@
     <a href="https://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/"> 
         <img src="/Rooky/res/ubuntu.png" height="40px" align="left" alt="ubuntu">
     </a>
-    <div style="width: 50%; margin:1% 0px; height:20px;">
+    <div style="width: 80%; margin:9px 0px; height:20px;">
         <a href="https://cdimage.ubuntu.com/ubuntu-gnome/releases/16.04/release/" style="margin-left:2px; align:left;">Скачать Ubuntu 16.04 LTS</a>
     </div>
 </div>
@@ -29,5 +29,7 @@
 ℹ️ [Инструкции по установке и запуску на Ubuntu 16.04](/Rooky/setup_common_ubuntu)
 
 ℹ️ [Инструкции по установке и запуску на Windows](/Rooky/setup_common_windows)
+
+ℹ️ [Описание библиотек и примеров работы](/Rooky/examples)
 
 ℹ️ [Приложение для тестирования оборудования и проверки связи](/TestDevices)

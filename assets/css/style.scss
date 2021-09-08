@@ -21,7 +21,7 @@ section {
 }
 
 footer {
-  width: calc(100vw * 0.14);
+  width: calc(100vw * 0.59);
   z-index: -1;
   float: left;
   position: fixed;
@@ -30,7 +30,7 @@ footer {
 }
 
 h1 {
-  font-size:26px;
+  font-size:28px;
 }
 
 img {
@@ -51,6 +51,11 @@ th, td {
 }
 
 .highlight .c1 {
+  color: #49935b;
+  font-style: italic;
+}
+
+.highlight .cm {
   color: #49935b;
   font-style: italic;
 }
